@@ -1,0 +1,142 @@
+html, body {
+    background: white;
+    font-size: medium;
+}
+
+.topics nav ul {
+    display: flex;
+    list-style: none;
+    margin: 1px;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topics nav a {
+    box-shadow: 5px 5px 5px #888888;
+    text-decoration: none;
+}
+
+.topics:hover {
+    font-size: 1.5em;
+    
+    
+}
+.topics {
+    background-color: rgb(116, 110, 110);
+    border-radius: 25px;
+    
+
+}
+
+.wrapper {
+    background: url("./img/1.jpg");
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header .brand {
+    color: #6b6565;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.7em;
+    padding: 1em;
+}
+
+header .brand span {
+    color: #666;
+    font-family:fantasy;
+    font-size: 1.7em;
+    padding: 1em;
+
+}
+
+#hero {
+    
+    min-height: 400px;
+    border-radius: 25px;
+    background: #68bba1 url("./img/2.jpg") center no-repeat;
+}
+
+main {
+    overflow: hidden;
+    display:flex;
+    padding: 1.5em;
+}
+
+#blogContent {
+    width: 80%;
+}
+
+article h2 {
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+}
+
+article p {
+    margin-top: 0.8em;
+    color: #333;
+    padding: 0;
+}
+
+article {
+    margin: 0.7em;
+    margin-top: 0.7em; 
+}
+
+aside {
+    text-align: center;
+    margin-left: 3em;
+    display: inline-block;
+    background-color: rgb(139, 139, 113);
+    padding: 1em;
+    box-sizing: content-box;
+    min-width: 20em;
+    border-radius: 25px;
+    min-height: 40%;
+    
+}
+
+aside h3 {
+    color:#fff;
+    padding: 0.1em;
+    margin-top: 0;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #858e9b;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a {
+    padding: 0.8em ;
+    display: block;
+}
+
+.usefull-links-container nav a:hover {
+    font-size: 1.2em;
+    color: white;
+    transition: color 1s;
+ 
+}
+
+footer {
+    margin-top: 2px;
+    background: rgb(121, 121, 84);
+    text-align: center;
+    padding:1em;
+    font-size: 0.9em;
+    clear: both;
+    border-radius: 25px;;
+}
